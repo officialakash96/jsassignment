@@ -17,3 +17,11 @@ var library = [
     readingStatus: false
     }
 ];
+function readingStatus(library)
+{
+    library.forEach(element => {
+        console.log("author: "+element.author+", title: "+element.title+", readingStatus: "+element.readingStatus);
+    });
+}
+//driver code
+readingStatus(library);
