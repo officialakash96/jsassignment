@@ -6,7 +6,7 @@ function getTimeinUTC(dateObject)
     timeInMilliseconds=dateToday.getUTCMilliseconds();
     console.log(timeInMilliseconds);
 }
-//driver code to solution1
+//driver code for function
 var dateToday = new Date('October 15, 1996 05:35:32:770 GMT+11:00');
 getTimeinUTC(dateToday);
 
