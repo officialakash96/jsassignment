@@ -1,6 +1,8 @@
 //Q6. How to delete 'Beethoven' from set
 const set = new Set(['Beethoven', 'Mozart', 'Chopin', 'Chopin']);
-//solution:
+//solution: set.delete('Beethoven');
+
+// code for solution:
 function displaySet(element) //displays each element in set
 {
   console.log(element)
@@ -16,5 +18,4 @@ function deleteFromSet(set,element) //deletes element from set
 }
 
 // driver code
-
 deleteFromSet(set,'Beethoven');
