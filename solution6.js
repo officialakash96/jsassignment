@@ -3,7 +3,7 @@ const set = new Set(['Beethoven', 'Mozart', 'Chopin', 'Chopin']);
 //solution:
 function displaySet(element) //displays each element in set
 {
-  console.log("Element in set: "+element)
+  console.log(element)
 }
 function deleteFromSet(set,element) //deletes element from set
 { 
